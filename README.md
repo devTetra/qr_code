@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [https://qrcodet.netlify.app/](https://your-live-site-url.com)
+- Live Site URL: [https://qrcodet.netlify.app/](https://qrcodet.netlify.app/)
 
 ## My process
 
@@ -37,15 +37,24 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 I was able to use flexbox to style some elements in CSS. A case is as shown below:
 
-To see how you can add code snippets, see below:
-
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container
+{
+    width: 230px;
+    height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Outfit', sans-serif;
 }
 ```
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@devTetra](https://www.frontendmentor.io/profile/devTetra)
+- Twitter - [@tetra_codes](https://twitter.com/tetra_codes)
